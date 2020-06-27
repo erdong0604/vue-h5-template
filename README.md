@@ -58,10 +58,10 @@ yarn serve or npm run serve
             |-- home
                 |-- index.vue
     |-- .browserslistrc 
-    |-- .eslintrc.js  eslint
+    |-- .eslintrc.js  eslint配置
     |-- .gitignore  
     |-- README.md  
-    |-- babel.config.js
+    |-- babel.config.js  babel配置
     |-- package.json
     |-- postcss.config.js  postcss配置
     |-- vue.config.js
