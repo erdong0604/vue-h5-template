@@ -33,34 +33,34 @@ yarn serve or npm run serve
         |-- main.js
         |-- apis
         |   |-- index.js
-        |-- assets
+        |-- assets  静态资源文件夹
         |   |-- images
-        |-- components
-        |-- request
-        |   |-- config.js
-        |   |-- encryParams.js
+        |-- components  公用组件
+        |-- request  axios封装
+        |   |-- config.js  axios配置
+        |   |-- encryParams.js  参数加密
+        |   |-- index.js  入口
+        |-- router  路由
+        |   |-- config.js  路由配置
+        |   |-- index.js  路由入口
+        |   |-- routes.js  路由路径
+        |-- store  vuex
         |   |-- index.js
-        |-- router
-        |   |-- config.js
-        |   |-- index.js
-        |   |-- routes.js
-        |-- store
-        |   |-- index.js
-        |-- styles
-        |   |-- index.less
-        |   |-- reset.less
-        |   |-- variables.less
-        |-- utils
-        |   |-- domain.js
-        |   |-- format.js
-        |   |-- validate.js
-        |-- views
+        |-- styles  样式配置
+        |   |-- index.less  公共样式
+        |   |-- reset.less  reset样式
+        |   |-- variables.less  less全局变量
+        |-- utils  工具库
+        |   |-- domain.js  域名
+        |   |-- format.js  date转换
+        |   |-- validate.js  校验
+        |-- views  组件
             |-- home
                 |-- index.vue
-    |-- .browserslistrc
-    |-- .eslintrc.js
-    |-- .gitignore
-    |-- README.md
+    |-- .browserslistrc 
+    |-- .eslintrc.js  eslint
+    |-- .gitignore  
+    |-- README.md  
     |-- babel.config.js
     |-- package.json
     |-- postcss.config.js
