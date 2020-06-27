@@ -31,7 +31,7 @@ yarn serve or npm run serve
     |-- src
         |-- App.vue
         |-- main.js
-        |-- apis
+        |-- apis  api入口
         |   |-- index.js
         |-- assets  静态资源文件夹
         |   |-- images
@@ -63,7 +63,7 @@ yarn serve or npm run serve
     |-- README.md  
     |-- babel.config.js
     |-- package.json
-    |-- postcss.config.js
+    |-- postcss.config.js  postcss配置
     |-- vue.config.js
     |-- yarn.lock
     
