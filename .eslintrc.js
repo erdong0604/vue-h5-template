@@ -22,24 +22,24 @@ module.exports = {
         "no-irregular-whitespace": 2, // 不能有不规则的空格
         "no-return-assign": 1, // return 语句中不能有赋值表达式
         "no-var": 2, // 禁用var，用let和const代替
-        indent: [ 2, 4 ], // 缩进风格
-        quotes: [ 2, "double" ], // 双引号
+        "indent": [ 2, 4 ], // 缩进风格
+        "quotes": [ 2, "double" ], // 双引号
         "no-console": 0, // 不禁用console
         "no-debugger": 2, // 禁用debugger
         "no-trailing-spaces": 1, // 一行结束后面有空格就发出警告
         "no-unused-vars": [ 0, { vars: "all", args: "after-used" } ], // 不能有声明后未被使用的变量或参数
         "no-underscore-dangle": 1, // 标识符不能以_开头或结尾
         "no-class-assign": 2, // 禁止给类赋值
-        camelcase: 0, // 强制驼峰法命名
+        "camelcase": 0, // 强制驼峰法命名
         "no-undef": 2, // 不能有未定义的变量
         "no-this-before-super": 0, // 在调用super()之前不能使用this或super
         "func-call-spacing": 0, // 禁止函数名与()之间有空格
         "no-unreachable": 1, // 不能有无法执行的代码
-        eqeqeq: 2, // 必须使用全等
+        "eqeqeq": 2, // 必须使用全等
         // 强制要求在对象字面量的属性中键和值之间使用一致的间距
         "key-spacing": [ 2, {
-            beforeColon: false,
-            afterColon: true
+            "beforeColon": false,
+            "afterColon": true
         } ],
         "no-tabs": 0,
         "no-lone-blocks": 2, // 禁用不必要的嵌套块
@@ -48,7 +48,7 @@ module.exports = {
         "comma-dangle": [ 2, "never" ], // 禁止末尾逗号
         // 强制在代码块中使用一致的大括号风格
         "brace-style": [ 2, "1tbs", {
-            allowSingleLine: true
+            "allowSingleLine": true
         } ],
 
         "block-spacing": [ 2, "always" ], // 强制在代码块中开括号前和闭括号后有空格
@@ -59,7 +59,7 @@ module.exports = {
             after: true
         } ],
         // 强制所有控制语句使用一致的括号风格
-        curly: [ 2, "multi-line" ],
+        "curly": [ 2, "multi-line" ],
         // 禁止文件末尾存在空行
         "eol-last": 2,
         "no-multiple-empty-lines": [ 2, {
@@ -80,37 +80,37 @@ module.exports = {
         "space-in-parens": [ 2, "always" ], // 强制在圆括号内使用一致的空格
         "space-infix-ops": 2, // 要求操作符周围有空格
         "space-unary-ops": [ 2, {
-            words: true,
-            nonwords: false
+            "words": true,
+            "nonwords": false
         } ], // 强制在一元操作符前后使用一致的空格
         "spaced-comment": [ 2, "always", {
-            markers: [ "global", "globals", "eslint", "eslint-disable", "*package", "!", "," ]
+            "markers": [ "global", "globals", "eslint", "eslint-disable", "*package", "!", "," ]
         } ], // 强制在注释中 // 或 /* 使用一致的空格
         "template-curly-spacing": [ 2, "never" ], // 禁止模板字符串中的嵌入表达式周围空格的使用
         // "prefer-const": 2, // 要求使用 const 声明那些声明后不再被修改的变量
         "object-curly-spacing": [ 2, "always", {
-            objectsInObjects: false
+            "objectsInObjects": false
         } ], // 强制在大括号中使用一致的空格
         // 'array-bracket-spacing': [2, 'never'], // 强制数组方括号中使用一致的空格
         "vue/v-on-function-call": [ "error", "never" ], // 允许函数带(a)
 
         "vue/no-use-v-if-with-v-for": [ "error", {
-            allowUsingIterationVar: true
+            "allowUsingIterationVar": true
         } ],
 
         "vue/max-attributes-per-line": [ "error", {
-            singleline: 1,
-            multiline: {
-                max: 1,
-                allowFirstLine: false
+            "singleline": 1,
+            "multiline": {
+                "max": 1,
+                "allowFirstLine": false
             }
         } ],
         "vue/html-indent": [ "error", "tab", {
-            alignAttributesVertically: true
+            "alignAttributesVertically": true
         } ],
         "vue/singleline-html-element-content-newline": [ "error", {
-            ignoreWhenNoAttributes: true,
-            ignoreWhenEmpty: true
+            "ignoreWhenNoAttributes": true,
+            "ignoreWhenEmpty": true
         } ]
 
     }
