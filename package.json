@@ -16,7 +16,6 @@
       "core-js": "^3.6.5",
       "hard-source-webpack-plugin": "^0.13.1",
       "js-md5": "^0.7.3",
-      "mddir": "^1.1.1",
       "moment": "^2.26.0",
       "postcss-pxtorem": "^5.1.1",
       "vant": "^2.8.6",
